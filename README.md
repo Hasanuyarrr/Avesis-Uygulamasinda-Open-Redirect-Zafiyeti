@@ -11,7 +11,7 @@ Uç nokta kimlik doğrulaması gerektirmez, herhangi bir CSRF/anti-forgery token
 
 Kimliği doğrulanmamış herhangi bir saldırgan, hedef kurumun güvenilir alan adıyla başlayan bir bağlantı üreterek kurbanı denetimindeki keyfi bir adrese yönlendirebilir:
 
-- **Kimlik avı (phishing) için güven devri.** Bağlantı, üniversitenin resmî `*.edu.tr` alan adıyla başladığı için kullanıcı, e-posta istemcisi ve alan adı itibarına dayalı filtreler nezdinde meşru görünür. Kurban, AVESİS/SSO oturum açma sayfasının birebir kopyasına yönlendirilerek kurumsal kimlik bilgileri toplanabilir.
+- **Kimlik avı (phishing) için güven devri.** Bağlantı, üniversitenin resmî `*.edu-com` alan adıyla başladığı için kullanıcı, e-posta istemcisi ve alan adı itibarına dayalı filtreler nezdinde meşru görünür. Kurban, AVESİS/SSO oturum açma sayfasının birebir kopyasına yönlendirilerek kurumsal kimlik bilgileri toplanabilir.
 - **Alan adı itibarının kötüye kullanımı.** Bağlantı, zararlı yazılım dağıtımı veya reklam/dolandırıcılık trafiğinin kurumun alan adı arkasına gizlenmesi amacıyla kullanılabilir; bu durum kurum alan adının itibar listelerinde işaretlenmesine yol açabilir.
 - **Alan adı temelli denetimlerin atlatılması.** Yalnızca hedef alan adına bakarak karar veren e-posta ağ geçitleri, güvenli bağlantı yeniden yazma mekanizmaları ve referrer temelli kontroller bu yönlendirmeyle aşılabilir.
 
