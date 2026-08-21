@@ -22,7 +22,7 @@ Ek gözlemler:
 
 - Parametre adı **büyük/küçük harf duyarsız** olarak bağlanmaktadır: `returnUrl`, `ReturnUrl` ve `returnurl` aynı davranışı üretir. `url` ve `redirect` gibi adlar bağlanmaz ve varsayılan `/` adresine yönlendirilir.
 - Parametre hiç verilmediğinde uygulama güvenli biçimde `/` adresine yönlendirmektedir; yani zafiyet, yalnızca bağlı parametrenin doğrulanmamasından kaynaklanmaktadır.
-- `javascript:` şeması da başlığa yansıtılmaktadır. Güncel tarayıcılar `Location` başlığındaki `javascript:` şemasını izlemediğinden bu davranış tek başına betik çalıştırmaya (XSS) yol açmaz; ancak şema düzeyinde de hiçbir denetim bulunmadığını göstermesi bakımından kayda değerdir.
+
 
 **Sınırlayıcı etken:** Test edilen kurulumda kimlik sağlayıcı (IdentityServer tabanlı SSO) uç noktasının `redirect_uri` doğrulaması **sıkı** biçimde uygulanmaktadır; alan adı sonek hilesi, `@` işaretli kullanıcı bilgisi ve `../` denemelerinin tamamı reddedilmiştir. Bu nedenle söz konusu open redirect, OAuth/OIDC akışında token hırsızlığına zincirlenememiştir. Bulgunun etkisi kimlik avı ve itibar kötüye kullanımı ile sınırlıdır.
 
