@@ -1,0 +1,1 @@
+# Avesis-Uygulamasinda-Open-Redirect-Zafiyeti
