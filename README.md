@@ -75,3 +75,4 @@ Hasan Hüseyin UYAR – Netlore Security
 | Tarih | Olay |
 |---|---|
 | 2026-08-20 | Zafiyet, yetkili bir sızma testi sırasında tespit edildi ve doğrulandı |
+|2026-08-26| CVE-2026-80444 Kimliği Atandı|
