@@ -39,7 +39,7 @@ Puanlama, saldırının kullanıcı etkileşimi gerektirmesi (`UI:R`) ancak kiml
 
 ## Etkilenen Sürümler
 
-202608201331
+202608201331 ve öncesi
 
 ## Etkilenen Bileşen
 
