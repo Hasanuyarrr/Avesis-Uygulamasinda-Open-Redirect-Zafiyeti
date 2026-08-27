@@ -39,9 +39,7 @@ Puanlama, saldırının kullanıcı etkileşimi gerektirmesi (`UI:R`) ancak kiml
 
 ## Etkilenen Sürümler
 
-Uygulama, sürüm numarasını hiçbir yüzeyde ifşa etmemektedir: HTML meta etiketlerinde, JavaScript sabitlerinde, altbilgide ve hata sayfalarında sürüm bilgisi bulunmamakta; `X-AspNet-Version`, `X-AspNetMvc-Version` ve `X-Powered-By` yanıt başlıkları kaldırılmış durumdadır. Bu nedenle **kesin bir etkilenen sürüm aralığı belirlenememiştir.** Zafiyet, 20–21 Ağustos 2026 tarihlerinde test edilen kurulumda mevcuttur.
-
-Davranış ürünün ortak dil değiştirme bileşeninden kaynaklandığından, üreticinin aynı kod tabanını kullanan diğer kurulumları da değerlendirmesi önerilir.
+202608201331
 
 ## Etkilenen Bileşen
 
